@@ -1,8 +1,8 @@
 # Blog de estudos
 
-Projeto desenvolvido nas aulas do programa FuturoDEV para as turmas FITNESS e ECO para demonstrar o conhecimento adquirido durante as aulas.
+Projeto desenvolvido durante as aulas do programa FuturoDEV para as turmas FITNESS e ECO. O Blog criado tem intuito de incentivar os alunos a demonstrar o conhecimento adquirido durante as aulas e com isso formar um porfólio atrativo.
 
-## Tecnologias utilizadas
+# Tecnologias utilizadas
 
 - ReactJs
 - Javascript
@@ -11,7 +11,7 @@ Projeto desenvolvido nas aulas do programa FuturoDEV para as turmas FITNESS e EC
 - EsLint
 - React Router DOM
 
-# Changelog
+# Features
 
 ### Semana 9
 
