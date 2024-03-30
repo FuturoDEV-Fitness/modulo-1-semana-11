@@ -9,7 +9,7 @@
 .post-category h2 {
  margin-bottom: 1rem;
  padding-bottom: 0.25rem;
- border-bottom: 1px solid #bebebe;
+ border-bottom: 4px solid var(--primary);
  width: 100%;
 }
 
