@@ -38,11 +38,6 @@ const posts = [
     date: "18/03/2024"
    },
    {
-    title: "Estado",
-    path: "/react/estado",
-    date: "18/03/2024"
-   },
-   {
     title: "Componentes controlados e não controlados",
     path: "/react/componentes-controlados-e-nao-controlados",
     date: "18/03/2024"

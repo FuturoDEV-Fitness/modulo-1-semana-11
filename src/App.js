@@ -11,8 +11,7 @@ import {
 import {
  ControlledVsUncontrolledComponents,
  Hooks,
- SideEffects,
- State
+ SideEffects
 } from "./pages/React";
 
 function App() {
@@ -52,10 +51,6 @@ function App() {
     {
      path: "hooks",
      element: <Hooks />
-    },
-    {
-     path: "estado",
-     element: <State />
     },
     {
      path: "componentes-controlados-e-nao-controlados",
