@@ -1,6 +1,5 @@
 import PostHeader from "../../../components/PostHeader";
 import SimpleCard from "../../../components/SimpleCard";
-import "./index.css";
 
 function Fetch() {
  function getStarWarsFilms() {
@@ -44,7 +43,7 @@ function Fetch() {
      <h2 className="section-title">Demonstrações práticas</h2>
 
      <SimpleCard>
-      <h2 className="second-title">Buscando dados de uma API</h2>
+      <h2 className="caption">Buscando dados de uma API</h2>
       <p className="mb-1">
        O botão abaixo busca a lista filmes da trilogia Star Wars de uma API
        gratuita com dados e imprime a resposta da requisição no console assim

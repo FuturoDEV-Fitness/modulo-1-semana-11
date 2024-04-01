@@ -1,48 +1,68 @@
 import PostHeader from "../../../components/PostHeader";
 import SimpleCard from "../../../components/SimpleCard";
-import "./index.css";
+
+function UncontrolledComponent() {
+ return <h1>Componente não controlado</h1>;
+}
+
+function ControlledComponent() {
+ return <h1>Componente controlado</h1>;
+}
 
 function ControlledVsUncontrolledComponents() {
- function demonstration() {
-  console.log("Dê um exemplo prático da demontração");
- }
-
  return (
   <div>
    <PostHeader
     title="Componentes controlados e não controlados"
-    description="Descreva o recurso"
+    description="Descreva o recurso de forma breve"
    />
 
    <div id="page-content">
     <div>
-     <h2 className="section-title">Anotações</h2>
+     <h2 className="section-title">Componentes controlados</h2>
 
      <SimpleCard>
-      <span>descreva o recurso de maneira mais extendida</span>
+      <h2 className="caption">Definição</h2>
+      <span>...</span>
      </SimpleCard>
 
      <SimpleCard>
-      <h2 className="second-title">Sintaxe</h2>
-      <code className="mb-1">console.log(&quot;descreva a sintaxe&quot;);</code>
-     </SimpleCard>
+      <h2 className="caption">Pontos importantes</h2>
 
-     <SimpleCard>
-      <h2 className="second-title">Lista</h2>
       <ul>
-       <li>adicione algo</li>
+       <li>Adicione</li>
       </ul>
      </SimpleCard>
     </div>
+
+    <div>
+     <h2 className="section-title">Componentes não controlados</h2>
+
+     <SimpleCard>
+      <h2 className="caption">Definição</h2>
+      <span>...</span>
+     </SimpleCard>
+
+     <SimpleCard>
+      <h2 className="caption">Pontos importantes</h2>
+
+      <ul>
+       <li>...</li>
+      </ul>
+     </SimpleCard>
+    </div>
+
     <div>
      <h2 className="section-title">Demonstrações práticas</h2>
 
      <SimpleCard>
-      <h2 className="second-title">Titulo da demonstração</h2>
-      <p className="mb-1">Descrição da demonstração</p>
-      <button onClick={() => demonstration()}>
-       Descreva o que o botão faz
-      </button>
+      <h2 className="second-title">Componente não controlado</h2>
+      <UncontrolledComponent />
+     </SimpleCard>
+
+     <SimpleCard>
+      <h2 className="caption">Componente controlado</h2>
+      <ControlledComponent />
      </SimpleCard>
     </div>
    </div>

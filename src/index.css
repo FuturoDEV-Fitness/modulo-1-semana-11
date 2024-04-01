@@ -1,21 +1,26 @@
 :root {
  --primary: #299c80;
+ --secondary: #52289c;
+ --third: #9c4428;
  --primary-light: #8adaca;
  --text-primary: #f5f5f5;
- --text-second: #e7e7e7;
+ --text-second: #e2e2e2;
  --text-dark: #a3a3a3;
+ --text-black: #111111;
  --bg-default: #272727;
+ --bg-second: #2a473f;
  --bg-darker-blue: #051627;
  --bg-header: #1a1a1a;
- --bg-dark: #383838;
- --bg-light: #383838;
- --bg-light-hover: #494949;
+ --bg-dark: #2c2c2c;
+ --bg-dark-light: #383838;
+ --bg-dark-light-hover: #494949;
 }
 
 * {
  margin: 0;
  padding: 0;
  font-family: "Montserrat", sans-serif;
+ color: var(--text-second);
 }
 
 body {
@@ -43,6 +48,10 @@ code {
  margin-bottom: 1rem;
  font-size: 1.5rem;
  font-weight: 600;
+ color: var(--text-primary);
+ background-color: var(--secondary);
+ padding: 0.5rem 1rem;
+ border-radius: 0.5rem;
 }
 
 button {
@@ -56,6 +65,20 @@ button {
  cursor: pointer;
 }
 
+input {
+ border: 1px solid var(--text-dark);
+ border-radius: 0.25rem;
+ font-size: 1rem;
+ padding: 0.25rem 0.5rem;
+ outline: none;
+ background: var(--bg-dark-light);
+ color: var(--text-primary);
+}
+
+input:focus {
+ background: var(--bg-dark);
+}
+
 #page-content {
  padding: 1rem 2rem;
 }
@@ -64,8 +87,18 @@ ul {
  margin-left: 1rem;
 }
 
+li {
+ margin-bottom: 0.25rem;
+}
+
 .second-title {
  font-size: 1.25rem;
+ padding-bottom: 0.75rem;
+ color: var(--text-primary);
+}
+
+.caption {
+ font-size: 1rem;
  padding-bottom: 0.75rem;
 }
 
@@ -78,4 +111,8 @@ ul {
 
 .mb-1 {
  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+ margin-bottom: 1rem;
 }

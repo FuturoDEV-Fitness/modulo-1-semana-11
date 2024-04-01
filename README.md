@@ -1,6 +1,6 @@
 # Blog de estudos
 
-Projeto desenvolvido durante as aulas do programa FuturoDEV para as turmas FITNESS e ECO. O Blog criado tem intuito de incentivar os alunos a demonstrar o conhecimento adquirido durante as aulas e com isso formar um porfólio atrativo.
+Projeto desenvolvido para as aulas do programa FuturoDEV. O Blog criado tem intuito de incentivar os alunos a demonstrar o conhecimento adquirido durante as aulas e com isso formar um porfólio atrativo.
 
 # Tecnologias utilizadas
 
@@ -27,7 +27,7 @@ Criação dos posts sobre Javascript
 
 Criação dos posts sobre React intermediário
 
-- Hooks
-- Estados com useState e useEffect
+- Hooks (useState, useRef e useEffect)
+- Hooks customizados
 - Efeito colateral
 - Componentes controlados e não controlados

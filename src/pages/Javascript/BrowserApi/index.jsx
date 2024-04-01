@@ -1,6 +1,5 @@
 import PostHeader from "../../../components/PostHeader";
 import SimpleCard from "../../../components/SimpleCard";
-import "./index.css";
 
 function BrowserApi() {
  // ---------------------------

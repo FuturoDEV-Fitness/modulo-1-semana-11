@@ -3,7 +3,7 @@
  flex-direction: column;
  justify-content: space-between;
  align-items: flex-start;
- background-color: var(--bg-light);
+ background-color: var(--bg-dark-light);
  border-radius: 4px;
  padding: 1rem;
  cursor: pointer;
@@ -11,5 +11,5 @@
 }
 
 .post-wrapper:hover {
- background-color: var(--bg-light-hover);
+ background-color: var(--bg-dark-light-hover);
 }
