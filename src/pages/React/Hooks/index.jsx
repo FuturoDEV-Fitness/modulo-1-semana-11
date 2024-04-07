@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PostHeader from "../../../components/PostHeader";
 import SimpleCard from "../../../components/SimpleCard";
+import useFetch from "../../../hooks/useFetch";
 import TipText from "../../../components/TipText";
 
 function Hooks() {
@@ -8,6 +9,9 @@ function Hooks() {
  const [secondsInThePage, setSecondsInThePage] = useState(0);
  const [incorrectSum, setIncorrectSum] = useState(0);
  const [correctSum, setCorrectSum] = useState(0);
+ const [users, isLoading] = useFetch(
+  "https://jsonplaceholder.typicode.com/users"
+ );
 
  function handleSumIncorrect() {
   setIncorrectSum(incorrectSum + 1);
@@ -287,13 +291,13 @@ function Hooks() {
        busca de dados.
       </p>
 
-      {/* {isLoading && <p>Carregando usuários...</p>}
+      {isLoading && <p>Carregando usuários...</p>}
 
       {!isLoading && (
        <ul>
         {users && users.map((user) => <li key={user.id}>{user.name}</li>)}
        </ul>
-      )} */}
+      )}
      </SimpleCard>
     </div>
    </div>

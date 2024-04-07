@@ -1,15 +1,16 @@
 import PostHeader from "../../../components/PostHeader";
 import SimpleCard from "../../../components/SimpleCard";
+import useFetch from "../../../hooks/useFetch";
 
 function Json() {
- const planets = fetch("/data/planets.json").then((res) => res.json());
+ const [planets, isLoading] = useFetch("/data/planets.json");
 
  function showFileContent() {
-  planets.then((res) => console.log(res));
+  console.log(planets, isLoading);
  }
 
  function convertJsToJson() {
-  planets.then((res) => JSON.stringify(res)).then((res) => console.log(res));
+  console.log(JSON.stringify(planets));
  }
 
  function convertJsonToJs() {
