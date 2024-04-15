@@ -35,17 +35,27 @@ const posts = [
    {
     title: "Hooks",
     path: "/react/hooks",
-    date: "18/03/2024"
+    date: "01/04/2024"
    },
    {
     title: "Componentes controlados e não controlados",
     path: "/react/componentes-controlados-e-nao-controlados",
-    date: "18/03/2024"
+    date: "01/04/2024"
    },
    {
     title: "Efeito colateral",
     path: "/react/efeito-colateral",
-    date: "18/03/2024"
+    date: "01/04/2024"
+   },
+   {
+    title: "React Hook Form",
+    path: "/react/react-hook-form",
+    date: "01/04/2024"
+   },
+   {
+    title: "ContextAPI",
+    path: "/react/context-api",
+    date: "01/04/2024"
    }
   ]
  }
